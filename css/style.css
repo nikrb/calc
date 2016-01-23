@@ -24,6 +24,19 @@ table td input {
 table td button {
   width:100%;
 }
+.btn {
+  outline:none !important;
+}
+.btn-default.focus, .btn-default:focus {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+  /* we don't want buttons looking focused on click
+  color: #333;
+  background-color: #E6E6E6;
+  border-color: #8C8C8C;*/
+}
+
 .blue-gradient {
     background: blue; /* Old browsers */
     background: linear-gradient( deepskyblue, dodgerblue);
