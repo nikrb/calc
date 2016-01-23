@@ -9,7 +9,18 @@ body {
     background: blue; /* Old browsers */
     background: linear-gradient( lightblue, deepskyblue);
 }
-
+table {
+  margin:20px auto;
+  table-layout: fixed;
+  width:250px;
+}
+table td {
+  padding:5px;
+}
+table td input {
+  margin-bottom: 1em;
+  width:100%;
+}
 table td button {
   width:100%;
 }
