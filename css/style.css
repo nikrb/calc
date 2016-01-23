@@ -28,13 +28,14 @@ table td button {
   outline:none !important;
 }
 .btn-tall {
+  /* FIXME only way I could get tall buttons to fill table cell vertically */
   height:100px;
 }
 .btn-default.focus, .btn-default:focus {
   color: #333;
   background-color: #fff;
   border-color: #ccc;
-  /* we don't want buttons looking focused on click
+  /* FIXME we don't want buttons looking focused on click
   color: #333;
   background-color: #E6E6E6;
   border-color: #8C8C8C;*/
