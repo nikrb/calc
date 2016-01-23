@@ -27,6 +27,9 @@ table td button {
 .btn {
   outline:none !important;
 }
+.btn-tall {
+  height:100px;
+}
 .btn-default.focus, .btn-default:focus {
   color: #333;
   background-color: #fff;
