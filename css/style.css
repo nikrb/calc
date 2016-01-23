@@ -8,6 +8,8 @@ body {
     background-attachment: fixed;
     background: blue; /* Old browsers */
     background: linear-gradient( lightblue, deepskyblue);
+    /* TODO get a vertical scroll bar */
+    overflow: hidden;
 }
 table {
   margin:20px auto;
